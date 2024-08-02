@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",                          // Specify ECMAScript target version
+        "module": "commonjs",                     // Specify module code generation
+        "strict": true,                           // Enable all strict type-checking options
+        "esModuleInterop": true,                  // Enables emit interoperability between CommonJS and ES Modules
+        "skipLibCheck": true,                     // Skip type checking of declaration files
+        "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+        "jsx": "react" // or "react-jsx" for React 17+
+    },
+    "include": [
+        "client/**/*"                             // Include all files in the client directory
+    ],
+    "exclude": [
+        "node_modules",                           // Exclude node_modules directory
+        "**/*.spec.ts"                            // Exclude test files
+    ]
+}
